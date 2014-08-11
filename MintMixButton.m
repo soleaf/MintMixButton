@@ -68,7 +68,9 @@
             }
             
             // Linked ImageView
-            if (self.linkedImageView && self.linkedImageViewHighlightedImage){
+            if (self.linkedImageView && self.linkedImageView.highlightedImage != nil){
+                self.linkedImageView.highlighted = highlighted;
+            }else if (self.linkedImageView && self.linkedImageViewHighlightedImage){
                 
                 if (highlighted) {
                     self.linkedImageView.image = self.linkedImageViewHighlightedImage;
@@ -81,7 +83,6 @@
                 }
                 else
                     self.linkedImageView.image = nil;
-    
             }
             
             [self setNeedsDisplay];
