@@ -48,14 +48,14 @@ self.ui_linkWithImgButton2.linkedImageViewNormalImage = [UIImage imageNamed:@"fi
 self.ui_linkWithImgButton2.linkedImageViewHighlightedImage = [UIImage imageNamed:@"second"];
 ```
 
-DATA Store Functions
+Data Store Functions
 ========
 To have a data on MintMixButton, set with these properties.
-@property NSMutableDictionary *mutableDict;
-@property NSDictionary *dict;
-@property NSArray *array;
-@property NSMutableArray *mutableArray;
-@property NSObject *data;
+* @property NSMutableDictionary *mutableDict;
+* @property NSDictionary *dict;
+* @property NSArray *array;
+* @property NSMutableArray *mutableArray;
+* @property NSObject *data;
 ```objective-c
 self.mintMixButton.dic = myDic;
 ```
