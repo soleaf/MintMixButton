@@ -19,7 +19,7 @@ Use
 2. Make your UIButton object's class to MintMixButton.(If you use xib, You can change a your button on Custom Class pane of Identity Inspector(Opt + Cmd + 3).
 3. Set link or MintMixButton'sproperties.
 
-Functions
+Styling Functions
 ========
 
 PLEASE CHECK OUT SAMPLE PROJECT FOR MORE IMPORMATIONS
@@ -46,8 +46,9 @@ self.ui_linkWithImgButton1.linkedImageView = self.ui_linkWithImg1;
 self.ui_linkWithImgButton2.linkedImageView = self.ui_linkWithImg2;
 self.ui_linkWithImgButton2.linkedImageViewNormalImage = [UIImage imageNamed:@"first"];
 self.ui_linkWithImgButton2.linkedImageViewHighlightedImage = [UIImage imageNamed:@"second"];
+```
 
-DATA Properties
+DATA Store Functions
 ========
 To have a data on MintMixButton, set with these properties.
 @property NSMutableDictionary *mutableDict;
@@ -58,3 +59,4 @@ To have a data on MintMixButton, set with these properties.
 ```objective-c
 self.mintMixButton.dic = myDic;
 ```
+
