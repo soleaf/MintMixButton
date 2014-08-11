@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F746F6441999182B00836C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F746F6431999182B00836C6B /* Foundation.framework */; };
+		F746F6461999182B00836C6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F746F6451999182B00836C6B /* CoreGraphics.framework */; };
+		F746F6481999182B00836C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F746F6471999182B00836C6B /* UIKit.framework */; };
+		F746F64E1999182B00836C6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F746F64C1999182B00836C6B /* InfoPlist.strings */; };
+		F746F6501999182B00836C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F746F64F1999182B00836C6B /* main.m */; };
+		F746F6541999182B00836C6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F746F6531999182B00836C6B /* AppDelegate.m */; };
+		F746F6571999182B00836C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F746F6551999182B00836C6B /* Main.storyboard */; };
+		F746F65A1999182B00836C6B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F746F6591999182B00836C6B /* FirstViewController.m */; };
+		F746F65D1999182B00836C6B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F746F65C1999182B00836C6B /* SecondViewController.m */; };
+		F746F65F1999182C00836C6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F746F65E1999182C00836C6B /* Images.xcassets */; };
+		F746F6661999182C00836C6B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F746F6651999182C00836C6B /* XCTest.framework */; };
+		F746F6671999182C00836C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F746F6431999182B00836C6B /* Foundation.framework */; };
+		F746F6681999182C00836C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F746F6471999182B00836C6B /* UIKit.framework */; };
+		F746F6701999182C00836C6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F746F66E1999182C00836C6B /* InfoPlist.strings */; };
+		F746F6721999182C00836C6B /* MintMixButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F746F6711999182C00836C6B /* MintMixButtonTests.m */; };
+		F746F67D1999184300836C6B /* MintMixButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F746F67C1999184300836C6B /* MintMixButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F746F6691999182C00836C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F746F6381999182B00836C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F746F63F1999182B00836C6B;
+			remoteInfo = MintMixButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F746F6401999182B00836C6B /* MintMixButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MintMixButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F746F6431999182B00836C6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F746F6451999182B00836C6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F746F6471999182B00836C6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F746F64B1999182B00836C6B /* MintMixButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MintMixButton-Info.plist"; sourceTree = "<group>"; };
+		F746F64D1999182B00836C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F746F64F1999182B00836C6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F746F6511999182B00836C6B /* MintMixButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MintMixButton-Prefix.pch"; sourceTree = "<group>"; };
+		F746F6521999182B00836C6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F746F6531999182B00836C6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F746F6561999182B00836C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F746F6581999182B00836C6B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F746F6591999182B00836C6B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F746F65B1999182B00836C6B /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F746F65C1999182B00836C6B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F746F65E1999182C00836C6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F746F6641999182C00836C6B /* MintMixButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintMixButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F746F6651999182C00836C6B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F746F66D1999182C00836C6B /* MintMixButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MintMixButtonTests-Info.plist"; sourceTree = "<group>"; };
+		F746F66F1999182C00836C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F746F6711999182C00836C6B /* MintMixButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MintMixButtonTests.m; sourceTree = "<group>"; };
+		F746F67B1999184300836C6B /* MintMixButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MintMixButton.h; path = ../../MintMixButton.h; sourceTree = "<group>"; };
+		F746F67C1999184300836C6B /* MintMixButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MintMixButton.m; path = ../../MintMixButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F746F63D1999182B00836C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F746F6461999182B00836C6B /* CoreGraphics.framework in Frameworks */,
+				F746F6481999182B00836C6B /* UIKit.framework in Frameworks */,
+				F746F6441999182B00836C6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F746F6611999182C00836C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F746F6661999182C00836C6B /* XCTest.framework in Frameworks */,
+				F746F6681999182C00836C6B /* UIKit.framework in Frameworks */,
+				F746F6671999182C00836C6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F746F6371999182B00836C6B = {
+			isa = PBXGroup;
+			children = (
+				F746F6491999182B00836C6B /* MintMixButton */,
+				F746F66B1999182C00836C6B /* MintMixButtonTests */,
+				F746F6421999182B00836C6B /* Frameworks */,
+				F746F6411999182B00836C6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F746F6411999182B00836C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F746F6401999182B00836C6B /* MintMixButton.app */,
+				F746F6641999182C00836C6B /* MintMixButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F746F6421999182B00836C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F746F6431999182B00836C6B /* Foundation.framework */,
+				F746F6451999182B00836C6B /* CoreGraphics.framework */,
+				F746F6471999182B00836C6B /* UIKit.framework */,
+				F746F6651999182C00836C6B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F746F6491999182B00836C6B /* MintMixButton */ = {
+			isa = PBXGroup;
+			children = (
+				F746F67E1999184700836C6B /* MintMixButton */,
+				F746F6521999182B00836C6B /* AppDelegate.h */,
+				F746F6531999182B00836C6B /* AppDelegate.m */,
+				F746F6551999182B00836C6B /* Main.storyboard */,
+				F746F6581999182B00836C6B /* FirstViewController.h */,
+				F746F6591999182B00836C6B /* FirstViewController.m */,
+				F746F65B1999182B00836C6B /* SecondViewController.h */,
+				F746F65C1999182B00836C6B /* SecondViewController.m */,
+				F746F65E1999182C00836C6B /* Images.xcassets */,
+				F746F64A1999182B00836C6B /* Supporting Files */,
+			);
+			path = MintMixButton;
+			sourceTree = "<group>";
+		};
+		F746F64A1999182B00836C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F746F64B1999182B00836C6B /* MintMixButton-Info.plist */,
+				F746F64C1999182B00836C6B /* InfoPlist.strings */,
+				F746F64F1999182B00836C6B /* main.m */,
+				F746F6511999182B00836C6B /* MintMixButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F746F66B1999182C00836C6B /* MintMixButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F746F6711999182C00836C6B /* MintMixButtonTests.m */,
+				F746F66C1999182C00836C6B /* Supporting Files */,
+			);
+			path = MintMixButtonTests;
+			sourceTree = "<group>";
+		};
+		F746F66C1999182C00836C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F746F66D1999182C00836C6B /* MintMixButtonTests-Info.plist */,
+				F746F66E1999182C00836C6B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F746F67E1999184700836C6B /* MintMixButton */ = {
+			isa = PBXGroup;
+			children = (
+				F746F67B1999184300836C6B /* MintMixButton.h */,
+				F746F67C1999184300836C6B /* MintMixButton.m */,
+			);
+			name = MintMixButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F746F63F1999182B00836C6B /* MintMixButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F746F6751999182C00836C6B /* Build configuration list for PBXNativeTarget "MintMixButton" */;
+			buildPhases = (
+				F746F63C1999182B00836C6B /* Sources */,
+				F746F63D1999182B00836C6B /* Frameworks */,
+				F746F63E1999182B00836C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MintMixButton;
+			productName = MintMixButton;
+			productReference = F746F6401999182B00836C6B /* MintMixButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F746F6631999182C00836C6B /* MintMixButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F746F6781999182C00836C6B /* Build configuration list for PBXNativeTarget "MintMixButtonTests" */;
+			buildPhases = (
+				F746F6601999182C00836C6B /* Sources */,
+				F746F6611999182C00836C6B /* Frameworks */,
+				F746F6621999182C00836C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F746F66A1999182C00836C6B /* PBXTargetDependency */,
+			);
+			name = MintMixButtonTests;
+			productName = MintMixButtonTests;
+			productReference = F746F6641999182C00836C6B /* MintMixButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F746F6381999182B00836C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mintcode.org;
+				TargetAttributes = {
+					F746F6631999182C00836C6B = {
+						TestTargetID = F746F63F1999182B00836C6B;
+					};
+				};
+			};
+			buildConfigurationList = F746F63B1999182B00836C6B /* Build configuration list for PBXProject "MintMixButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F746F6371999182B00836C6B;
+			productRefGroup = F746F6411999182B00836C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F746F63F1999182B00836C6B /* MintMixButton */,
+				F746F6631999182C00836C6B /* MintMixButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F746F63E1999182B00836C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F746F65F1999182C00836C6B /* Images.xcassets in Resources */,
+				F746F64E1999182B00836C6B /* InfoPlist.strings in Resources */,
+				F746F6571999182B00836C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F746F6621999182C00836C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F746F6701999182C00836C6B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F746F63C1999182B00836C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F746F65D1999182B00836C6B /* SecondViewController.m in Sources */,
+				F746F6541999182B00836C6B /* AppDelegate.m in Sources */,
+				F746F65A1999182B00836C6B /* FirstViewController.m in Sources */,
+				F746F6501999182B00836C6B /* main.m in Sources */,
+				F746F67D1999184300836C6B /* MintMixButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F746F6601999182C00836C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F746F6721999182C00836C6B /* MintMixButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F746F66A1999182C00836C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F746F63F1999182B00836C6B /* MintMixButton */;
+			targetProxy = F746F6691999182C00836C6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F746F64C1999182B00836C6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F746F64D1999182B00836C6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F746F6551999182B00836C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F746F6561999182B00836C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F746F66E1999182C00836C6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F746F66F1999182C00836C6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F746F6731999182C00836C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F746F6741999182C00836C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F746F6761999182C00836C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MintMixButton/MintMixButton-Prefix.pch";
+				INFOPLIST_FILE = "MintMixButton/MintMixButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F746F6771999182C00836C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MintMixButton/MintMixButton-Prefix.pch";
+				INFOPLIST_FILE = "MintMixButton/MintMixButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F746F6791999182C00836C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MintMixButton.app/MintMixButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MintMixButton/MintMixButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MintMixButtonTests/MintMixButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F746F67A1999182C00836C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MintMixButton.app/MintMixButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MintMixButton/MintMixButton-Prefix.pch";
+				INFOPLIST_FILE = "MintMixButtonTests/MintMixButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F746F63B1999182B00836C6B /* Build configuration list for PBXProject "MintMixButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F746F6731999182C00836C6B /* Debug */,
+				F746F6741999182C00836C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F746F6751999182C00836C6B /* Build configuration list for PBXNativeTarget "MintMixButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F746F6761999182C00836C6B /* Debug */,
+				F746F6771999182C00836C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F746F6781999182C00836C6B /* Build configuration list for PBXNativeTarget "MintMixButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F746F6791999182C00836C6B /* Debug */,
+				F746F67A1999182C00836C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F746F6381999182B00836C6B /* Project object */;
+}

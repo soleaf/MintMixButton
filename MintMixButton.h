@@ -15,6 +15,7 @@
 @property NSDictionary *dict;
 @property NSArray *array;
 @property NSMutableArray *mutableArray;
+@property NSObject *data;
 
 // Highlighting Background Color
 @property UIColor *normalBackgroudColor;
